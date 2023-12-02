@@ -3,7 +3,6 @@ from model.imports import *
 
 class Parquet(Factory):
     def __init__(self, payload: Dict) -> None:
-        self._payload = payload
         super().__init__(payload)
 
     def process_data(self) -> Data:
