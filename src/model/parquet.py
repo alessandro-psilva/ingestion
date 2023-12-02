@@ -1,3 +1,4 @@
+import json
 from model.factory import Factory
 from module.schema import Schema
 from module.data import Data
@@ -10,7 +11,7 @@ class Parquet(Factory):
         super().__init__(payload)
 
     def process_data(self) -> Data:
-        print(f"ProcessandoParquet: {self._payload}")
+        print(f"ProcessandoParquet: {json.dumps(self._payload, indent=2)}")
 
     def generate_schema(self) -> Schema:
         pass

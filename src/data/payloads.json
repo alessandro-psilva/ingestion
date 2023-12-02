@@ -1,0 +1,37 @@
+[
+    {
+        "cdTipoIngestao": "Avro",
+        "nmDatabase": "avro_db",
+        "nmTabela": "tbl_avro"
+    },
+    {
+        "cdTipoIngestao": "Bin",
+        "nmDatabase": "bin_db",
+        "nmTabela": "tbl_bin"
+    },
+    {
+        "cdTipoIngestao": "Csv",
+        "nmDatabase": "csv_db",
+        "nmTabela": "tbl_csv"
+    },
+    {
+        "cdTipoIngestao": "Json",
+        "nmDatabase": "json_db",
+        "nmTabela": "tbl_json"
+    },
+    {
+        "cdTipoIngestao": "Orc",
+        "nmDatabase": "orc_db",
+        "nmTabela": "tbl_orc"
+    },
+    {
+        "cdTipoIngestao": "Parquet",
+        "nmDatabase": "parquet_db",
+        "nmTabela": "tbl_parquet"
+    },
+    {
+        "cdTipoIngestao": "Xlsx",
+        "nmDatabase": "xlsx_db",
+        "nmTabela": "tbl_xlsx"
+    }
+]
