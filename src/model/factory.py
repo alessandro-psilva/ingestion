@@ -17,4 +17,4 @@ class Factory(ABC):
         pass
 
     def __del__(self) -> None:
-        print(f"Delete: {self.__str__}")
+        print(f"Delete: {self.__class__.__name__}")
