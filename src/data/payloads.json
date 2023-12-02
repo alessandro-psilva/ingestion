@@ -33,5 +33,10 @@
         "cdTipoIngestao": "Xlsx",
         "nmDatabase": "xlsx_db",
         "nmTabela": "tbl_xlsx"
+    },
+    {
+        "cdTipoIngestao": "Kafka",
+        "nmDatabase": "kafka_db",
+        "nmTabela": "tbl_kafka"
     }
 ]
