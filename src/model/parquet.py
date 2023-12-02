@@ -1,4 +1,4 @@
-from module.factory import Factory
+from model.factory import Factory
 from module.schema import Schema
 from module.data import Data
 from typing import Dict
@@ -10,7 +10,7 @@ class Parquet(Factory):
         super().__init__(payload)
 
     def process_data(self) -> Data:
-        print(f"Processando {self._payload}")
+        print(f"ProcessandoParquet: {self._payload}")
 
     def generate_schema(self) -> Schema:
         pass

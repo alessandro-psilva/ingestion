@@ -1,3 +1,4 @@
+import json
 from model.avro import Avro
 from model.bin import Bin
 from model.csv import Csv
@@ -14,4 +15,4 @@ class Ingestion:
         self._factory: Union[Avro, Bin, Csv, Json, Orc, Parquet, Xlsx] = eval(
             payload["cdTipoIngestao"]
         )
-        self._factory(payload=self._payload).process_data()
+        self._factory(payload=json.dumps(self._payload, indent=2)).process_data()
