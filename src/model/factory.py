@@ -15,3 +15,6 @@ class Factory(ABC):
     @abstractmethod
     def generate_schema(self) -> Schema:
         pass
+
+    def __del__(self) -> None:
+        print(f"Delete: {self.__str__}")
