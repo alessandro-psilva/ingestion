@@ -1,4 +1,5 @@
 import uuid
+from module.payload import Payload
 from template.avro import Avro
 from template.bin import Bin
 from template.csv import Csv

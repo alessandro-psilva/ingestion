@@ -11,10 +11,10 @@ class Ingestion:
         return cls._instances[cls]
 
     def process(self, payload: Dict) -> Dict:
-        self._payload: Dict = payload
-        self._payload["cdIngestao"] = int(uuid.uuid4())
+        payload["cdIngestao"] = int(uuid.uuid4())
+        self._payload: Payload = Payload(**payload)
         self._template: Union[Avro, Bin, Csv, Json, Orc, Parquet, Xlsx, Kafka] = eval(
-            payload["cdTipoIngestao"]
+            self._payload.cdTipoIngestao
         )
         self._template(payload=self._payload).process_data()
         del self._template
