@@ -1,10 +1,10 @@
 import uuid
-from model.avro import Avro
-from model.bin import Bin
-from model.csv import Csv
-from model.json import Json
-from model.orc import Orc
-from model.parquet import Parquet
-from model.xlsx import Xlsx
-from model.kafka import Kafka
+from template.avro import Avro
+from template.bin import Bin
+from template.csv import Csv
+from template.json import Json
+from template.orc import Orc
+from template.parquet import Parquet
+from template.xlsx import Xlsx
+from template.kafka import Kafka
 from typing import Dict, Union

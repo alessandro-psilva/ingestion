@@ -1,4 +1,4 @@
-from model.imports import *
+from template.imports import *
 
 
 class Xlsx(Factory):
