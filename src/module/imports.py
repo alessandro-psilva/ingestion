@@ -8,4 +8,5 @@ from template.orc import Orc
 from template.parquet import Parquet
 from template.xlsx import Xlsx
 from template.kafka import Kafka
+from template.api import Api
 from typing import Dict, Union

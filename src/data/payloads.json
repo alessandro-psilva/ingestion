@@ -38,5 +38,10 @@
         "cdTipoIngestao": "Kafka",
         "nmDatabase": "kafka_db",
         "nmTabela": "tbl_kafka"
+    },
+    {
+        "cdTipoIngestao": "Api",
+        "nmDatabase": "api_db",
+        "nmTabela": "tbl_api"
     }
 ]
