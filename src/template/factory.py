@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-from typing import Dict
 from module.schema import Schema
 from module.data import Data
 from module.payload import Payload
